@@ -1,7 +1,7 @@
 import streamlit as st
 import time as t
 
-st.image('Bleach.png')
+st.image('Bleach.png',width=500)
 
 
 # Title - It is used to give title to the app
@@ -65,7 +65,7 @@ st.selectbox("Pick your course",['ML','GenAi','Web D','Cyber security'])
 # Multi Select
 st.multiselect("Choose the Department",['Content','Sales','Marketing'])
 
-# Selectslider
+# Select slider
 st.select_slider("Rating",['Bad','Good','Excellent','Outsanding'])
 
 # Slider(to pick number)
